@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Title</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<!-- Template Basic Images End -->
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)};function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n};function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+	<!-- Load Fonts CSS Start -->
+	<script>
+		loadCSS( "css/fonts.min.css?ver=1.0.0", false, "all" ); // Loading fonts, if the site is located in a subfolder
+		// loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" ); // Loading fonts, if the site is at the root
+	</script>
+	<!-- Load Fonts CSS End -->
+	<!-- Load Custom CSS Start -->
+	<script>loadCSS("css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load Custom CSS End -->
+	<!-- Load Custom CSS Compiled without JS Start -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+	<!-- Load Custom CSS Compiled without JS End -->
+</head>
+<body>
+	<!-- header -->
+	<div id="header" class="container-fluid header">
+		<!-- header_navbar -->
+		<nav class="navbar header_navbar navbar-fixed-top">
+			<!-- navbar_block -->
+			<div class="container navbar_block">
+				<div class="row">
+					<div class="col-lg-2">
+						<!-- navbar_btn topmenu_popup triger -->
+						<button type="button" class="btn navbar_btn" data-target="#header_topmenu" data-toggle="modal">
+							<img class="btn_iconmenu" src="img/menu-icon.png" alt="">
+						</button><!-- navbar_btn END -->
+					</div>
+					<div class="col-lg-offset-2 col-lg-4 mainlogo">
+						<img src="img/main_logo.png" alt="" class="mainlogo_img">
+					</div>
+					<div class="col-lg-offset-3 col-lg-1 facebook">
+						<a href="https://facebook.com/" class="facebook_link"><img src="img/facebook.png" alt="" class="facebook_img"></a>
+					</div>
+				</div>
+			</div><!-- navbar_block END -->
+		</nav><!-- header_navbar END -->
+		<!-- header_topmenu (POPUP TOPMENU) -->
+		<div class="modal fade popup header_topmenu" id="header_topmenu" tabindex="-1" role="dialog" aria-labelledby="popup-label" aria-hidden="true">
+			<!-- popup_dialog -->
+			<div class="modal-dialog popup_dialog" role="document">
+				<!-- row -->
+				<div class="row">
+					<div class="col-lg-1 popup_close-col">
+						<button type="button" class="btn close popup_close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>						
+					</div>
+					<div class="col-lg-10">
+						<h2 class="topmenu_title">Menu</h2>
+						<!-- topmenu -->
+						<ul class="list-group topmenu">
+							<li class="list-group-item topmenu_list"><a href="#deal" class="topmenu_link">O burgrech</a></li>
+							<li class="list-group-item topmenu_list"><a href="#zdarma" class="topmenu_link">Nabídka</a></li>
+							<li class="list-group-item topmenu_list"><a href="#menu" class="topmenu_link">Objednávka</a></li>
+							<li class="list-group-item topmenu_list"><a href="#contacts" class="topmenu_link">Kontakt</a></li>
+						</ul><!-- topmenu END -->
+					</div>
+					<!-- topmenu_bottom -->
+					<div class="topmenu_bottom">
+						<div class="col-lg-offset-1 col-lg-4">
+							<img src="img/adress_icon.png" alt="" class="adress_img">
+							<p class="adress_text">Bělehradská 858/23</p>
+						</div>
+						<div class="col-lg-4">
+							<img src="img/phone-call.png" alt="" class="adress_img adress_img-phone">
+							<a href="tel:+420605333545" class="adress_text adress_text-link">+420 605 333 545</a>
+						</div>
+						<div class="col-lg-offset-1 col-lg-1">
+							<a href="https://facebook.com/" class="facebook_link"><img src="img/facebook.png" alt="" class="facebook_img facebook_img-popup"></a>
+						</div>
+					</div><!-- topmenu_bottom -->
+				</div><!-- row END -->
+			</div><!-- popup_dialog END -->
+		</div><!-- header_topmenu END -->
+		<!-- header_block -->
+		<div class="container header_block">
+			<p class="cornertext">Ochutnej</p>
+			<h1 class="maintitle">Nejlepší burgery<br>v Praze</h1> 
+			<div class="row">
+				<div class="col-lg-offset-2 col-lg-9">
+					<img src="img/header_banner.png" alt="" class="header_banner">
+				</div>
+			</div>
+		</div><!-- header_block END -->
+	</div><!-- header END -->
+	<!-- zdarma -->
+	<div id="zdarma" class="container-fluid zdarma">
+		<!-- zdarma_block -->
+		<div class="container zdarma_block">
+			<h2 class="block_title zdarma_title">Ke každému burgeru hranolky a pití ZDARMA</h2>
+			<!-- row -->
+			<div class="row">
+				<div class="col-lg-4 zdarma_offer">
+					<img src="img/offer_burger.png" alt="" class="offer_img offer_one">
+				</div>
+				<div class="col-lg-1 zdarma_offer">
+					<img src="img/offer_plus.png" alt="" class="offer_img offer_plus">
+				</div>
+				<div class="col-lg-3 zdarma_offer">
+					<img src="img/offer_chips.png" alt="" class="offer_img offer_two">				
+				</div>
+				<div class="col-lg-1 zdarma_offer">
+					<img src="img/offer_plus.png" alt="" class="offer_img offer_plus">
+				</div>
+				<div class="col-lg-3 zdarma_offer">
+					<img src="img/offer_cola.png" alt="" class="offer_img offer_three">					
+				</div>
+			</div><!-- row END -->
+		</div><!-- zdarma_block END -->
+	</div><!-- zdarma END -->
+	<!-- deal -->
+	<div id="deal" class="container-fluid deal">
+		<!-- deal_block -->
+		<div class="container deal_block">
+			<!-- deal_offer -->
+			<div class="col-lg-4 deal_offer">
+				<img src="img/deal_chutne.png" alt="" class="deal_img">
+				<p class="deal_text"><span class="deal_text-big">600 g</span>hov zího masa, dv  volská oka, propečená slanina s hromadou cibule a drezingu. K tomu křupavé hranolky se syceným nápojem dle výběru (0,5 L)</p>
+				<h3 class="deal_title">Big Royal menu</h3>
+				<p class="deal_price">289</p>
+				<button class="btn deal_btn">CHCI DOVÉZT</button>
+			</div><!-- deal_offer -->
+		</div><!-- deal_block END -->
+	</div><!-- deal END -->
+	<!-- menu -->
+	<div id="menu" class="container-fluid menu">
+		<!-- menu_block -->
+		<div class="container menu_block">
+			<div class="row">
+				<div class="col-lg-11">
+					<img src="img/oder_bg.png" alt="" class="order_bg">
+				</div>
+			</div>
+		</div><!-- menu_block END -->
+	</div><!-- menu END -->
+	<!-- info -->
+	<div id="info" class="container-fluid info">
+		<!-- info_top -->
+		<div class="container info_top">
+			<!-- row -->
+			<div class="row">
+				<div class="col-lg-6 info_btn-col">
+					<button class="btn info_btn">Objednávka a dovoz</button>
+				</div>
+				<div class="col-lg-offset-1 col-lg-5  info_btn-col">
+					<button class="btn info_btn">rezervace místa</button>
+				</div>
+			</div><!-- row END -->
+		</div><!-- info_top END -->
+		<!-- info_body -->
+		<div class="container-fluid info_body">
+			<!-- info_block -->
+			<div class="container info_block">
+				<div class="info_offer">
+					<h3 class="info_smalltitle">Na chuti záleží</h3>
+					<h3 class="info_smalltitle">naše burgery si jednoduše zamilujete</h3>
+					<button class="btn info_btn-restaurant" data-toggle="modal" data-target="#popup_gallery">restaurace</button>
+					<h2 class="info_title">TĚŠÍME SE NA VAŠÍ NÁVŠTĚVU</h2>
+				</div>
+			</div><!-- info_block END -->
+			<!-- popup_gallery -->
+			<div id="popup_gallery" class="modal fade and carousel slide popup_gallery" tabindex="-1" role="dialog" aria-hidden="true">
+				<!-- modal-dialog -->
+				<div class="modal-dialog">
+					<!-- modal-content -->
+					<div class="modal-content">
+						<!-- popup_close -->
+						<div class="col-lg-offset-11 col-lg-1">
+							<button type="button" class="btn close popup_close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>		
+						</div><!-- popup_close END -->
+						<!-- gallery_control -->			
+						<div class="col-lg-1 gallery_control">
+							<a class="left carousel-control control_link" href="#popup_gallery" data-slide="prev">
+								<i class="control_icon glyphicon glyphicon-menu-left"></i>
+							</a>
+						</div><!-- gallery_control END -->
+						<!-- (gallery content) -->
+						<div class="col-lg-10">
+							<!-- carousel-inner -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img class="gallery_img" src="img/gallery_burger-1.jpg" alt="burger">
+								</div>
+								<div class="item">
+									<img class="gallery_img" src="img/gallery_burger-2.jpg" alt="burger">
+								</div>
+								<div class="item">
+									<img class="gallery_img" src="img/gallery_burger-3.jpg" alt="burger">
+								</div>
+							</div><!-- carousel-inner END -->
+						</div><!-- (gallery content) END -->
+						<!-- gallery_control -->	
+						<div class="col-lg-1 gallery_control">
+							<a class="right carousel-control control_link" href="#popup_gallery" data-slide="next">
+								<i class="control_icon glyphicon glyphicon-menu-right"></i>
+							</a>
+						</div><!-- gallery_control END -->	
+					</div><!-- modal-content END -->
+				</div><!-- modal-dialog END -->
+			</div><!-- popup_gallery END -->
+		</div><!-- info_body END -->
+	</div><!-- info END -->
+	<!-- map -->
+	<div id="contacts" class="container-fluid map contacts">
+		<!-- map_btn (POPUP MAP TRIGER) -->
+		<button type="button" class="btn map_btn" data-toggle="modal" data-target="#popup_footer">otevřete kontaktní údaje</button><!-- map_btn (POPUP MAP TRIGER) END -->
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10243.96373644238!2d14.429517121870914!3d50.067731428985226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b947d51a62647%3A0x63fdae91a7f8a58c!2zQsSbbGVocmFkc2vDoSA4NTgvMjMsIDEyMCAwMCBQcmFoYSAyLVZpbm9ocmFkeSwg0KfQtdGF0LjRjw!5e0!3m2!1sru!2sru!4v1508614967063" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<!-- contacts_popup -->
+    <div class="modal fade popup contacts_popup" id="popup_footer" tabindex="-1" role="dialog" aria-labelledby="popup-label" aria-hidden="true">
+			<!-- popup_dialog-footer -->
+			<div class="modal-dialog popup_dialog-footer" role="document">
+				<!-- popup_content-footer -->
+				<div class="modal-content popup_content-footer">
+					<img src="img/main_logo.png" alt="prague burger" class="popup_logo">
+					<p class="popup_text popup_adress">ADRESA: <span class="popup_adress-date">Bělehradská 858/23</span> </p>
+					<p class="popup_text popup_reservation">OBJEDNÁVKY A REZERVACE</p>
+					<p class="popup_text popup_phone">+420 605 333 545</p>
+				</div><!-- popup_content-footer END -->
+			</div><!-- popup_dialog-footer END -->
+		</div><!-- contacts_popup END -->
+	</div><!-- map END -->
+	<!-- footer -->
+	<div id="footer" class="container-fluid footer">
+		<!-- footer_block -->
+		<div class="container footer_block">
+			<div class="row">
+				<div class="col-lg-6">
+					<p class="copyright">všechna práva vyhrazena</p>
+				</div>
+				<div class="col-lg-6">
+					<a href="https://www.aneboo.cz" class="aneboo">vytvořeno službou <img src="img/aneboo_logo-black.svg" alt="aneboo" class="aneboo_logo">	 </a>
+				</div>
+			</div>
+		</div><!-- footer_block END -->
+	</div><!-- footer END -->
+	<!-- Optimized loading JS Start -->
+	<script>var scr = {"scripts":[
+		{"src" : "js/libs.min.js", "async" : false},
+		{"src" : "js/common.js", "async" : false}
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+	<!-- Optimized loading JS End -->
+</body>
+</html>
